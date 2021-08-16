@@ -1,0 +1,138 @@
+.header img{
+  float: left;
+}
+header {
+  display: absolute;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color:rgb(43, 159, 226);
+}
+ h2{
+  text-align: center;
+  color:rgba(255, 0, 0, 0.753);
+}
+.sidebar{
+  height: 100%;
+  width: 20%;
+  background-color: cyan;
+  position: fixed;
+}
+.sidebar a{
+  text-decoration:none;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+#civil,#cse,#eee,#ece,#mech,#it p{
+  margin-left: 280px;
+}
+.academics h2{
+  color: black;
+  font-weight: bold;
+  
+}
+.pgcourse h2{
+  color: black;
+  font-weight: bold;
+}
+#civil,#cse,#it,#mech,#eee,#ece{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px;
+
+}
+#cad,#mecse,#pse,#str,#vlsi{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px;
+}
+#cad,#mecse,#pse,#str,#vlsi p{
+  margin-left: 280px;
+}
+
+.sidebar h2{
+  text-align: left;
+}
+.vision h2{
+  text-align: center;
+}
+.vision p,ul li{
+  font-size: 20px;
+}
+#contact{
+  background-color: black;
+  color: white;
+}
+pre{
+	font-size: 20px;
+	word-spacing: 0.1px;
+	letter-spacing: 0.1px;
+	text-align: center;
+	font-family: sans-serif;
+}
+p{
+	word-spacing: 0.1px;
+	letter-spacing: 0.1px;
+	font-size: 20px;
+}
+.navbar{
+	text-align: center;
+	background-color: green;
+}
+
+.navbar ul{
+  display: inline-flex;
+  list-style: none;
+}
+ .navbar ul li {
+  font-size: 15px;
+	width: 120px;
+	padding: 5px;
+	margin-top: 5px;
+  display: inline-flex;
+}
+.sub-nav {
+  display: none;
+}
+.aboutfounder img{
+  border-radius: 50%;
+}
+.center{
+  display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.aboutmpn{
+  background-color:white;
+  padding: 2px;
+}
+.aboutmpn h1{
+  text-align: center;
+}
+
+.aboutmpn ul li{
+  font-size: 20px;
+}
+.navbar ul li:hover .sub-nav{
+  display: block;
+  position: absolute;
+	margin-top: 25px;
+	margin-left: -25px;
+	background-color:limegreen ;
+	border-radius: 3px;
+}
+.navbar ul li:hover .sub-nav ul{
+  display: block;
+	margin: 10px;
+}
+.navbar ul li:hover .sub-nav ul li{
+  text-align: left;
+	border-bottom: solid;
+  display: block;
+}
